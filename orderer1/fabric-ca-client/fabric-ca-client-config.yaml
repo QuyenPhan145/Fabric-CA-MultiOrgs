@@ -1,0 +1,77 @@
+#############################################################################
+#   This is a configuration file for the fabric-ca-client command.
+#############################################################################
+
+#############################################################################
+# Client Configuration
+#############################################################################
+
+# URL of the Fabric-ca-server (default: http://localhost:7054)
+url: https://10.102.10.226:7053
+
+# Membership Service Provider (MSP) directory
+mspdir: msp
+
+#############################################################################
+#  Certificate Signing Request section for generating the CSR for an
+#############################################################################
+csr:
+  cn: orderer1-OrdererOrg
+  serialnumber:
+  names:
+    - C: VN
+      ST: VietNam
+      L:
+      O: Orderer-org
+      OU: 
+  hosts:
+    - 10.102.10.226
+    
+#############################################################################
+#  Registration section used to register a new identity with fabric-ca server
+#############################################################################
+id:
+  name:
+  type:
+  affiliation:
+  maxenrollments: 0
+  attributes:
+   # - name:
+   #   value:
+
+#############################################################################
+#  Enrollment section used to enroll an identity with fabric-ca server
+#############################################################################
+enrollment:
+  profile:
+  label:
+
+#############################################################################
+#    TLS section for secure socket connection
+#############################################################################
+tls:
+  # TLS section for secure socket connection
+  certfiles: /etc/hyperledger/fabric-ca-client/ca-cert.pem
+  client:
+    certfile:
+    keyfile:
+
+
+
+#############################################################################
+# Name of the CA to connect to within the fabric-ca server
+#############################################################################
+caname:
+
+#############################################################################
+# BCCSP (BlockChain Crypto Service Provider) section allows to select which
+# crypto implementation library to use
+#############################################################################
+bccsp:
+    default: SW
+    sw:
+        hash: SHA2
+        security: 256
+        filekeystore:
+            # The directory used for the software file-based keystore
+            keystore: msp/keystore
