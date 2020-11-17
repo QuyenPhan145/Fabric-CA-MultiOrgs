@@ -1,0 +1,80 @@
+=============== Nov 11, 2020 (UTC) ===============
+02:40:09.618237 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:40:09.620114 db@open opening
+02:40:09.620748 version@stat F·[] S·0B[] Sc·[]
+02:40:09.621604 db@janitor F·2 G·0
+02:40:09.621640 db@open done T·1.496747ms
+=============== Nov 11, 2020 (UTC) ===============
+03:33:34.539324 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+03:33:34.539801 version@stat F·[] S·0B[] Sc·[]
+03:33:34.539884 db@open opening
+03:33:34.540032 journal@recovery F·1
+03:33:34.547253 journal@recovery recovering @1
+03:33:34.551565 version@stat F·[] S·0B[] Sc·[]
+03:33:34.563602 db@janitor F·2 G·0
+03:33:34.563643 db@open done T·23.741378ms
+=============== Nov 11, 2020 (UTC) ===============
+03:39:27.626819 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+03:39:27.627009 version@stat F·[] S·0B[] Sc·[]
+03:39:27.627040 db@open opening
+03:39:27.627112 journal@recovery F·1
+03:39:27.627525 journal@recovery recovering @2
+03:39:27.627840 version@stat F·[] S·0B[] Sc·[]
+03:39:27.630408 db@janitor F·2 G·0
+03:39:27.630437 db@open done T·3.387951ms
+=============== Nov 11, 2020 (UTC) ===============
+03:54:03.425547 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+03:54:03.426100 version@stat F·[] S·0B[] Sc·[]
+03:54:03.426165 db@open opening
+03:54:03.426337 journal@recovery F·1
+03:54:03.426625 journal@recovery recovering @4
+03:54:03.432925 version@stat F·[] S·0B[] Sc·[]
+03:54:03.434839 db@janitor F·2 G·0
+03:54:03.434872 db@open done T·8.692322ms
+=============== Nov 11, 2020 (UTC) ===============
+04:12:17.211817 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:12:17.212137 version@stat F·[] S·0B[] Sc·[]
+04:12:17.212195 db@open opening
+04:12:17.212444 journal@recovery F·1
+04:12:17.213316 journal@recovery recovering @6
+04:12:17.215628 version@stat F·[] S·0B[] Sc·[]
+04:12:17.217551 db@janitor F·2 G·0
+04:12:17.217617 db@open done T·5.269601ms
+=============== Nov 11, 2020 (UTC) ===============
+04:20:05.280305 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:20:05.280434 version@stat F·[] S·0B[] Sc·[]
+04:20:05.280453 db@open opening
+04:20:05.280521 journal@recovery F·1
+04:20:05.281469 journal@recovery recovering @8
+04:20:05.284189 version@stat F·[] S·0B[] Sc·[]
+04:20:05.286200 db@janitor F·2 G·0
+04:20:05.286527 db@open done T·6.066518ms
+=============== Nov 11, 2020 (UTC) ===============
+05:04:12.254566 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+05:04:12.254859 version@stat F·[] S·0B[] Sc·[]
+05:04:12.254897 db@open opening
+05:04:12.255030 journal@recovery F·1
+05:04:12.255313 journal@recovery recovering @10
+05:04:12.255795 version@stat F·[] S·0B[] Sc·[]
+05:04:12.258137 db@janitor F·2 G·0
+05:04:12.258179 db@open done T·3.26795ms
+=============== Nov 11, 2020 (UTC) ===============
+07:52:05.592206 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+07:52:05.592647 skipping CURRENT.bak: invalid file num: strconv.ParseInt: parsing "bak": invalid syntax
+07:52:05.592961 version@stat F·[] S·0B[] Sc·[]
+07:52:05.592975 db@open opening
+07:52:05.593049 journal@recovery F·1
+07:52:05.594071 journal@recovery recovering @12
+07:52:05.597379 version@stat F·[] S·0B[] Sc·[]
+07:52:05.598718 db@janitor F·2 G·0
+07:52:05.598759 db@open done T·5.774379ms
+=============== Nov 12, 2020 (UTC) ===============
+06:10:42.525779 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+06:10:42.526009 skipping CURRENT.bak: invalid file num: strconv.ParseInt: parsing "bak": invalid syntax
+06:10:42.526246 version@stat F·[] S·0B[] Sc·[]
+06:10:42.526271 db@open opening
+06:10:42.526394 journal@recovery F·1
+06:10:42.528697 journal@recovery recovering @14
+06:10:42.530670 version@stat F·[] S·0B[] Sc·[]
+06:10:42.532638 db@janitor F·2 G·0
+06:10:42.532680 db@open done T·6.39537ms

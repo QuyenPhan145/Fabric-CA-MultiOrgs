@@ -1,0 +1,81 @@
+=============== Nov 11, 2020 (UTC) ===============
+02:40:09.609673 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:40:09.611000 db@open opening
+02:40:09.611397 version@stat F·[] S·0B[] Sc·[]
+02:40:09.612085 db@janitor F·2 G·0
+02:40:09.612132 db@open done T·1.111011ms
+=============== Nov 11, 2020 (UTC) ===============
+03:33:34.516234 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+03:33:34.516780 version@stat F·[] S·0B[] Sc·[]
+03:33:34.516837 db@open opening
+03:33:34.517035 journal@recovery F·1
+03:33:34.517308 journal@recovery recovering @1
+03:33:34.518532 memdb@flush created L0@2 N·1 S·119B "_\x00f,v1":"_\x00f,v1"
+03:33:34.518957 version@stat F·[1] S·119B[119B] Sc·[0.25]
+03:33:34.521774 db@janitor F·3 G·0
+03:33:34.521855 db@open done T·5.002575ms
+=============== Nov 11, 2020 (UTC) ===============
+03:39:27.616382 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+03:39:27.616613 version@stat F·[1] S·119B[119B] Sc·[0.25]
+03:39:27.616651 db@open opening
+03:39:27.616738 journal@recovery F·1
+03:39:27.616977 journal@recovery recovering @3
+03:39:27.617850 version@stat F·[1] S·119B[119B] Sc·[0.25]
+03:39:27.620432 db@janitor F·3 G·0
+03:39:27.620460 db@open done T·3.799857ms
+=============== Nov 11, 2020 (UTC) ===============
+03:54:03.411660 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+03:54:03.411875 version@stat F·[1] S·119B[119B] Sc·[0.25]
+03:54:03.411920 db@open opening
+03:54:03.412025 journal@recovery F·1
+03:54:03.413638 journal@recovery recovering @5
+03:54:03.418356 version@stat F·[1] S·119B[119B] Sc·[0.25]
+03:54:03.421399 db@janitor F·3 G·0
+03:54:03.421444 db@open done T·9.513344ms
+=============== Nov 11, 2020 (UTC) ===============
+04:12:17.196209 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:12:17.196366 version@stat F·[1] S·119B[119B] Sc·[0.25]
+04:12:17.196393 db@open opening
+04:12:17.196467 journal@recovery F·1
+04:12:17.197938 journal@recovery recovering @7
+04:12:17.200752 version@stat F·[1] S·119B[119B] Sc·[0.25]
+04:12:17.202927 db@janitor F·3 G·0
+04:12:17.202954 db@open done T·6.552754ms
+=============== Nov 11, 2020 (UTC) ===============
+04:20:05.273119 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:20:05.273289 version@stat F·[1] S·119B[119B] Sc·[0.25]
+04:20:05.273315 db@open opening
+04:20:05.273399 journal@recovery F·1
+04:20:05.273558 journal@recovery recovering @9
+04:20:05.274374 version@stat F·[1] S·119B[119B] Sc·[0.25]
+04:20:05.276769 db@janitor F·3 G·0
+04:20:05.276792 db@open done T·3.468294ms
+=============== Nov 11, 2020 (UTC) ===============
+05:04:12.224146 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+05:04:12.224501 version@stat F·[1] S·119B[119B] Sc·[0.25]
+05:04:12.224603 db@open opening
+05:04:12.224868 journal@recovery F·1
+05:04:12.225340 journal@recovery recovering @11
+05:04:12.234654 version@stat F·[1] S·119B[119B] Sc·[0.25]
+05:04:12.237071 db@janitor F·3 G·0
+05:04:12.237108 db@open done T·12.489994ms
+=============== Nov 11, 2020 (UTC) ===============
+07:52:05.579281 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+07:52:05.582060 skipping CURRENT.bak: invalid file num: strconv.ParseInt: parsing "bak": invalid syntax
+07:52:05.582421 version@stat F·[1] S·119B[119B] Sc·[0.25]
+07:52:05.582439 db@open opening
+07:52:05.582518 journal@recovery F·1
+07:52:05.587980 journal@recovery recovering @13
+07:52:05.589640 version@stat F·[1] S·119B[119B] Sc·[0.25]
+07:52:05.591471 db@janitor F·3 G·0
+07:52:05.591526 db@open done T·9.075487ms
+=============== Nov 12, 2020 (UTC) ===============
+06:10:42.498226 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+06:10:42.498415 skipping CURRENT.bak: invalid file num: strconv.ParseInt: parsing "bak": invalid syntax
+06:10:42.498525 version@stat F·[1] S·119B[119B] Sc·[0.25]
+06:10:42.498550 db@open opening
+06:10:42.498708 journal@recovery F·1
+06:10:42.503544 journal@recovery recovering @15
+06:10:42.504040 version@stat F·[1] S·119B[119B] Sc·[0.25]
+06:10:42.524916 db@janitor F·3 G·0
+06:10:42.524996 db@open done T·26.427836ms
